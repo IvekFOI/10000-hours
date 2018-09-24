@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Izbor"
+    android:background="@drawable/palme123"
+    android:alpha="0.9"
+    android:orientation="vertical"
+    >
+
+    <Button
+        android:id="@+id/New"
+        android:layout_width="match_parent"
+        android:layout_height="145dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="80dp"
+        android:alpha="0.9"
+        android:background="@drawable/button_background"
+        android:text="New activity"
+        android:textStyle="bold"
+
+        />
+
+
+    <Button
+        android:id="@+id/Rez"
+        android:layout_width="match_parent"
+        android:layout_height="145dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="25dp"
+        android:alpha="0.9"
+        android:background="@drawable/button_background"
+        android:text="Results"
+        android:textStyle="bold" />
+
+
+
+</LinearLayout>

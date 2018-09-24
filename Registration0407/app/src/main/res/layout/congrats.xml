@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/palme123"
+    >
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="219dp"
+        android:layout_height="71dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="    10 000"
+        android:textSize="40dp"
+        android:layout_gravity="center"
+        tools:layout_editor_absoluteX="106dp"
+        tools:layout_editor_absoluteY="49dp"
+        android:textColor="black"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/btnresults"
+        android:layout_width="257dp"
+        android:layout_height="91dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="51dp"
+        android:layout_gravity="center"
+        android:background="@drawable/button_background"
+        android:text="Results"
+        android:textSize="20dp"/>
+
+    <Button
+        android:id="@+id/btnnewact"
+        android:layout_width="257dp"
+        android:layout_height="91dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="51dp"
+        android:background="@drawable/button_background"
+        android:text="New activity"
+        android:textSize="18dp"/>
+</LinearLayout>

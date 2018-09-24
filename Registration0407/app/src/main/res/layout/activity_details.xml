@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="20dp"
+    android:paddingTop="20dp"
+    android:background="@drawable/palme123"
+    tools:context=".DetailsActivity">
+
+
+
+    <TextView
+        android:id="@+id/tvcatdet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Category"
+        android:textStyle="bold"
+        android:layout_marginBottom="30dp"
+        />
+
+    <TextView
+        android:id="@+id/tvsubcatdet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:textStyle="bold"
+        android:text="Subcategory" />
+
+    <TextView
+        android:id="@+id/tvtimedet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:layout_marginBottom="40dp"
+        />
+
+    <SeekBar
+        android:id="@+id/detseek"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:alpha="0.5"
+        android:background="@drawable/button_background"
+
+
+        />
+
+    <Button
+        android:id="@+id/detaccept"
+        android:layout_width="350dp"
+        android:layout_marginTop="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:alpha="0.9"
+        android:textStyle="bold"
+        android:background="@drawable/button_background"
+        android:singleLine="true"
+        android:text="Next" />
+
+</LinearLayout>

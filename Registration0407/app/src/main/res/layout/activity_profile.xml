@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileActivity"
+    android:background="@drawable/palme123"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/TextViewUserEmail"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="22dp"
+        android:gravity="center"
+        android:text="Welcome - "
+        android:textSize="28dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/TextViewCategory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:textSize="22dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="64dp"
+        android:text="Enter category/subcategory to keep track of and desired time:"
+        android:gravity="center"
+        android:textColor="black"
+        />
+
+    <EditText
+        android:id="@+id/EditTextCategory"
+        android:layout_width="239dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="22dp"
+        android:hint="Category"
+        android:textColorHint="black"
+        />
+
+    <EditText
+        android:id="@+id/EditTextSubcategory"
+        android:layout_width="239dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:hint="Subategory"
+        android:textColorHint="black"
+        />
+
+
+    <TextView
+        android:id="@+id/TextViewTimeOption"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="Time:"
+        android:textSize="22dp"
+        android:textColor="black"/>
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="208dp"
+        android:layout_height="36dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="11dp" />
+
+
+    <TextView
+        android:id="@+id/TextViewTimeShow"
+        android:layout_width="59dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"
+        android:gravity="center"
+        android:text=""
+        android:textSize="20dp"
+        android:textColor="black"/>
+
+
+    <Button
+        android:id="@+id/button_accept"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/button_background"
+        android:alpha="0.6"
+        android:textStyle="bold"
+        android:text="Accept" />
+
+</LinearLayout>
